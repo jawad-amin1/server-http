@@ -68,6 +68,3 @@ curl -X POST -d "hi there" http://127.0.0.1:8080/file/filetest.txt
 * 0.1
     * Initial Creation
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
