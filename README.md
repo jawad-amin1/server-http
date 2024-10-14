@@ -10,12 +10,12 @@ Currently, the server only responds with 3 codes: 200 OK, 201 Created, and 404 N
 
 This is a project that is a rather simple implementation of HTTP, where more requests and response codes are planned to be incorporated and built on with further version updates.
 
-### Dependencies
+## Dependencies
 
 * The project requires you to be using an operating system compliant with the POSIX standard due to using the <sys/socket.h> header file.
 * Unfortunately, this means the project will not work with Windows operating systems, and it is therefore highly recommended to run this project on a Unix based OS.
 * For best performance, Mozilla Firefox is recommended as the browser for displaying/receiving files.
-### Executing program
+## Executing program
 
 * Using the gcc compiler, enter this command in the terminal to produce a compiled server file.
 ```
@@ -40,7 +40,7 @@ gcc server.c server.h handleResponse.c -o server
 - [ ] Investigate potential race conditions between threads e.g. incorporating a mutex.
 
 
-### Requests
+## Requests
 * To perform GET requests, go to your preferred browser and type the following in the address bar:
 ```
 localhost:8080/file/<your_file_path_here>
