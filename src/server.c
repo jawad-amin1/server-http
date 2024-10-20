@@ -24,7 +24,7 @@ int main(int argc, char* argv[]){
         return -1;
     }
     printf("Binded to port.\n");
-    if (listen((server_fd), 10) < 0){ //Waits for connection from client, builds a queue of connections up to a maximum capacity of 5.
+    if (listen((server_fd), 10) < 0){ //Waits for connection from client, builds a queue of connections up to a maximum capacity of 10.
         perror("Failed to listen.\n");
         return -1;
     }
