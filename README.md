@@ -13,7 +13,7 @@ This is a project that is a rather simple implementation of HTTP, where more req
 ## Dependencies/Recommendations
 
 * The project requires you to be using an operating system compliant with the POSIX standard due to using the <sys/socket.h> header file.
-* Unfortunately, this means the project will not work with Windows operating systems, and it is therefore highly recommended to run this project on a Unix based OS.
+* Unfortunately, this means the project will not work with the traditional Windows operating system, and it is therefore highly recommended to run this project on a Unix based OS, or using Windows Subsystem for Linux (WSL).
 * Having experimented with various browsers, Mozilla Firefox is recommended as the browser for displaying/receiving files.
 ## Executing Program
 
