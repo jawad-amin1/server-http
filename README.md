@@ -14,7 +14,7 @@ This is a project that is a rather simple implementation of HTTP, where more req
 
 * The project requires you to be using an operating system compliant with the POSIX standard due to using the <sys/socket.h> header file.
 * Unfortunately, this means the project will not work with Windows operating systems, and it is therefore highly recommended to run this project on a Unix based OS.
-* For best performance, Mozilla Firefox is recommended as the browser for displaying/receiving files.
+* Having experimented with various browsers, Mozilla Firefox is recommended as the browser for displaying/receiving files.
 ## Executing program
 
 * Using the gcc compiler, enter this command in the terminal to produce a compiled server file.
@@ -36,7 +36,6 @@ gcc server.c server.h handleResponse.c -o server
 - [x] Add example sites/requests users can use to test code
 - [ ] Add DELETE requests
 - [ ] Add more response codes that allow for more specificity e.g. server code 500
-- [ ] Add a simple LRU Cache implementation
 - [ ] Investigate potential race conditions between threads e.g. incorporating a mutex.
 
 
