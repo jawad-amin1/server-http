@@ -10,7 +10,7 @@ Currently, the server only responds with 3 codes: 200 OK, 201 Created, and 404 N
 
 This is a project that is a rather simple implementation of HTTP, where more requests and response codes are planned to be incorporated and built on with further version updates.
 
-## Dependencies
+## Dependencies/Recommendations
 
 * The project requires you to be using an operating system compliant with the POSIX standard due to using the <sys/socket.h> header file.
 * Unfortunately, this means the project will not work with Windows operating systems, and it is therefore highly recommended to run this project on a Unix based OS.
