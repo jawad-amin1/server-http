@@ -1,6 +1,6 @@
 # HTTP Server
 
-A multithreaded HTTP server built entirely in C.
+A multithreaded HTTP server built entirely in C to further consolidate my learning within my undergraduate degree.
 
 ## Description
 
